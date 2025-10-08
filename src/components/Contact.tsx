@@ -21,28 +21,28 @@ export function Contact() {
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Lahore , Punjab',
+      value: 'Lahore , Pakistan',
       link: 'https://maps.google.com'
     }
   ];
 
   const socialLinks = [
     {
-      icon: Facebook,
+      icon: Github,
       name: 'Facebook',
-      url: 'https://facebook.com/realshahnawaz',
+      url: 'https://facebook.com',
       username: '@realshahnawaz'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/realshahnawaz',
+      url: 'https://linkedin.com',
       username: 'Shah Nawaz'
     },
     {
       icon: Twitter,
       name: 'Twitter',
-      url: 'https://twitter.com/@realshahnawaz',
+      url: 'https://twitter.com/realshahnawaz',
       username: '@realshahnawaz'
     }
   ];
