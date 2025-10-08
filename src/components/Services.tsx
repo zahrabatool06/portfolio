@@ -1,5 +1,5 @@
-import { Bitcoin, Shield, TrendingUp, Users, DollarSign, Zap, ChevronRight, ArrowRight } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
+import { Bitcoin, Shield, TrendingUp, Users, DollarSign, ChevronRight, ArrowRight } from 'lucide-react';
+import { Card, CardTitle } from './ui/card';
 import { useRouter } from './Router';
 import { CryptoPattern } from './CryptoPattern';
 

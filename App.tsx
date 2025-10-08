@@ -1,16 +1,16 @@
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Services } from './components/Services';
-import { Portfolio } from './components/Portfolio';
-import { Education } from './components/Education';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { CustomCursor } from './components/CustomCursor';
-import { ThemeProvider } from './components/ThemeProvider';
-import { RouterProvider, useRouter } from './components/Router';
-import { ServiceDetail } from './components/ServiceDetail';
-import { CaseStudyDetail } from './components/CaseStudyDetail';
+import { Header } from './src/components/Header';
+import { Hero } from './src/components/Hero';
+import { About } from './src/components/About';
+import { Services } from './src/components/Services';
+import { Portfolio } from './src/components/Portfolio';
+import { Education } from './src/components/Education';
+import { Contact } from './src/components/Contact';
+import { Footer } from './src/components/Footer';
+import { CustomCursor } from './src/components/CustomCursor';
+import { ThemeProvider } from './src/components/ThemeProvider';
+import { RouterProvider, useRouter } from './src/components/Router';
+import { ServiceDetail } from './src/components/ServiceDetail';
+import { CaseStudyDetail } from './src/components/CaseStudyDetail';
 
 function AppContent() {
   const { currentPage } = useRouter();
