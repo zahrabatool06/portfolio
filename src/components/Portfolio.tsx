@@ -1,5 +1,5 @@
 import { ArrowRight, TrendingUp } from 'lucide-react';
-import { Card, CardTitle } from './ui/card';
+import { Card, CardContent, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { useRouter } from './Router';

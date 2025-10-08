@@ -27,8 +27,8 @@ export function CustomCursor() {
                              target.getAttribute('role') === 'button' ||
                              target.closest('button') !== null ||
                              target.classList.contains('btn') ||
-                             (target.tagName === 'A' && target.getAttribute('href') !== null);
-      setIsButton(Boolean(isButtonElement));
+                             (target.tagName === 'A' && target.getAttribute('href'));
+      setIsButton(isButtonElement);
     };
 
     const handleMouseLeave = () => {

@@ -3,79 +3,137 @@ import { Card } from './ui/card';
 
 const educations = [
   {
-    degree: "Master of Science in Financial Technology",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    year: "2018 - 2020",
-    description: "Specialized in blockchain technology, cryptocurrency markets, and digital asset management. Graduated Magna Cum Laude with focus on P2P trading systems and DeFi protocols.",
+    degree: "M-Phil in Business Commerce",
+    institution: "University of Education, Lahore",
+    location: "Lahore, Pakistan",
+    year: "2022 - 2025",
+    description: "Advanced postgraduate studies in business commerce with focus on digital finance, e-commerce, and modern trading systems. Specializing in cryptocurrency markets and P2P trading ecosystems.",
     achievements: [
-      "Thesis: 'Optimizing P2P Cryptocurrency Trading Through Machine Learning'",
-      "Research Assistant - Blockchain Research Lab",
-      "Dean's List for 4 consecutive semesters"
+      "Research focus on cryptocurrency P2P trading dynamics",
+      "Advanced studies in digital commerce and fintech",
+      "Specialized in risk management and market analysis"
     ],
     icon: GraduationCap,
     gradient: "from-primary/10 via-blue-500/10 to-purple-500/10",
     accentColor: "text-blue-400",
-    prestige: "Elite"
+    prestige: "Postgraduate"
   },
   {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "MIT",
-    location: "Cambridge, MA", 
-    year: "2014 - 2018",
-    description: "Major in Computer Science with minor in Economics. Focused on distributed systems, cryptography, and algorithmic trading. Early adopter of blockchain technology.",
+    degree: "Bachelor of Science in English",
+    institution: "University of Education, Lahore",
+    location: "Lahore, Pakistan", 
+    year: "2018 - 2022",
+    description: "Comprehensive undergraduate program in English language and literature, developing strong communication and analytical skills essential for international business and client relations.",
     achievements: [
-      "Summa Cum Laude graduate",
-      "Founded MIT Cryptocurrency Club",
-      "Developed first P2P trading bot for campus"
+      "Developed exceptional communication skills",
+      "Strong foundation in professional writing",
+      "Enhanced cross-cultural understanding for global markets"
     ],
     icon: BookOpen,
     gradient: "from-green-500/10 via-primary/10 to-emerald-500/10",
     accentColor: "text-green-400",
-    prestige: "Elite"
+    prestige: "Undergraduate"
   }
 ];
 
 const certifications = [
   {
-    title: "Certified Bitcoin Professional (CBP)",
-    issuer: "CryptoCurrency Certification Consortium",
-    year: "2023",
-    description: "Advanced certification in Bitcoin protocol, mining, and trading strategies.",
+    title: "Blockchain: Beyond the Basics",
+    issuer: "LinkedIn Learning",
+    year: "Sep 2025",
+    description: "Advanced understanding of blockchain technology, distributed ledgers, and their practical applications in modern finance.",
+    skills: "Blockchain",
     icon: Award,
     gradient: "from-orange-500/15 to-yellow-500/15",
     borderColor: "border-orange-500/20",
     accentColor: "text-orange-400"
   },
   {
-    title: "Certified Ethereum Developer", 
-    issuer: "Ethereum Foundation",
-    year: "2022",
-    description: "Smart contract development and DeFi protocol implementation.",
+    title: "Cryptocurrency Foundations", 
+    issuer: "LinkedIn Learning",
+    year: "Sep 2025",
+    description: "Comprehensive foundation in cryptocurrency concepts, trading mechanisms, and digital asset management.",
+    skills: "Cryptocurrency",
     icon: Award,
     gradient: "from-blue-500/15 to-indigo-500/15",
     borderColor: "border-blue-500/20",
     accentColor: "text-blue-400"
   },
   {
-    title: "Financial Risk Manager (FRM)",
-    issuer: "Global Association of Risk Professionals",
-    year: "2021", 
-    description: "Advanced risk management in cryptocurrency and traditional markets.",
+    title: "Getting Started as a Customer Support Specialist",
+    issuer: "LinkedIn Learning",
+    year: "Sep 2025", 
+    description: "Professional training in customer service excellence, support best practices, and client relationship management.",
+    skills: "Customer Support",
+    icon: Award,
+    gradient: "from-green-500/15 to-emerald-500/15",
+    borderColor: "border-green-500/20",
+    accentColor: "text-green-400"
+  },
+  {
+    title: "What Is Web3?",
+    issuer: "LinkedIn Learning",
+    year: "Sep 2025",
+    description: "Understanding the fundamentals of Web3, decentralized technologies, and the future of internet infrastructure.",
+    skills: "Blockchain",
+    icon: Award,
+    gradient: "from-purple-500/15 to-pink-500/15",
+    borderColor: "border-purple-500/20",
+    accentColor: "text-purple-400"
+  },
+  {
+    title: "English Access Micro Scholarship Programme",
+    issuer: "University of Education, Lahore",
+    year: "Mar 2021",
+    description: "Certificate of Graduation in English language proficiency, business communication, grammar, and teaching methodologies.",
+    skills: "English · Business English · Grammar · Teaching",
+    icon: Award,
+    gradient: "from-red-500/15 to-orange-500/15",
+    borderColor: "border-red-500/20",
+    accentColor: "text-red-400"
+  }
+];
+
+const skills = [
+  {
+    title: "Cryptocurrency Trading (P2P)",
+    description: "Expert in peer-to-peer cryptocurrency trading on major platforms including Binance and Paxful.",
+    icon: Award,
+    gradient: "from-orange-500/15 to-yellow-500/15",
+    borderColor: "border-orange-500/20",
+    accentColor: "text-orange-400"
+  },
+  {
+    title: "Risk Management & Fraud Prevention", 
+    description: "Advanced skills in identifying, assessing, and mitigating risks in crypto P2P transactions.",
+    icon: Award,
+    gradient: "from-blue-500/15 to-indigo-500/15",
+    borderColor: "border-blue-500/20",
+    accentColor: "text-blue-400"
+  },
+  {
+    title: "Customer Service & Relationship",
+    description: "Building and maintaining strong client relationships with focus on trust and reliability.",
     icon: Award,
     gradient: "from-red-500/15 to-pink-500/15",
     borderColor: "border-red-500/20",
     accentColor: "text-red-400"
   },
   {
-    title: "Chartered Financial Analyst (CFA)",
-    issuer: "CFA Institute",
-    year: "2020",
-    description: "Comprehensive training in investment analysis and portfolio management.",
+    title: "Market Analysis & Strategy",
+    description: "Deep understanding of cryptocurrency markets, trends, and strategic trading approaches.",
     icon: Award,
     gradient: "from-green-500/15 to-emerald-500/15",
     borderColor: "border-green-500/20",
     accentColor: "text-green-400"
+  },
+  {
+    title: "Blockchain & DeFi Knowledge",
+    description: "Comprehensive understanding of blockchain technology and decentralized finance ecosystems.",
+    icon: Award,
+    gradient: "from-purple-500/15 to-pink-500/15",
+    borderColor: "border-purple-500/20",
+    accentColor: "text-purple-400"
   }
 ];
 
@@ -97,14 +155,14 @@ export function Education() {
         <div className="text-center mb-16 md:mb-24">
           <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 text-primary mb-8 group hover:from-primary/20 hover:to-primary/10 transition-all duration-500 hover:scale-105">
             <GraduationCap className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
-            <span className="caption">Education & Certifications</span>
+            <span className="caption">Education & Skills</span>
           </div>
           <h2 className="heading-3 mb-8 bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent">
-            Academic Excellence
+            Education & Expertise
           </h2>
           <p className="body-large text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Elite institutional credentials and continuous professional development in blockchain technology, 
-            financial markets, and cryptocurrency trading systems.
+            Strong academic foundation combined with specialized skills in cryptocurrency P2P trading, 
+            risk management, and digital commerce from University of Education, Lahore.
           </p>
         </div>
 
@@ -190,7 +248,7 @@ export function Education() {
             </div>
           </div>
           
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert, index) => (
               <Card key={index} className="group relative overflow-hidden border border-border bg-card hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2">
                 <div className={`absolute inset-0 bg-gradient-to-br ${cert.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
@@ -215,8 +273,48 @@ export function Education() {
                     {cert.year}
                   </div>
                   
-                  <p className="body-small text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                  <p className="body-small text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors duration-300 mb-4">
                     {cert.description}
+                  </p>
+                  
+                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/5 border border-primary/10 text-primary">
+                    <span className="caption">{cert.skills}</span>
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Professional Skills */}
+        <div className="mb-20 md:mb-24">
+          <div className="flex items-center justify-center mb-12 md:mb-16">
+            <div className="flex items-center gap-3">
+              <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent w-16"></div>
+              <h3 className="heading-5 text-center">Core Skills & Expertise</h3>
+              <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent w-16"></div>
+            </div>
+          </div>
+          
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {skills.map((skill, index) => (
+              <Card key={index} className="group relative overflow-hidden border border-border bg-card hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+                <div className={`absolute inset-0 bg-gradient-to-br ${skill.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+                
+                <div className="relative z-10 p-6">
+                  <div className="relative mb-6">
+                    <div className="p-4 bg-gradient-to-br from-primary/10 to-primary/5 text-primary w-fit group-hover:from-primary group-hover:to-primary/90 group-hover:text-primary-foreground transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                      <skill.icon className="h-8 w-8" />
+                    </div>
+                    <div className="absolute -inset-2 bg-gradient-to-r from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-md"></div>
+                  </div>
+                  
+                  <h4 className="heading-6 mb-3 group-hover:text-primary transition-colors duration-300">
+                    {skill.title}
+                  </h4>
+                  
+                  <p className="body-small text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                    {skill.description}
                   </p>
                 </div>
               </Card>
@@ -230,10 +328,10 @@ export function Education() {
         <div className="pt-12 md:pt-16 border-t border-border">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { value: "2", label: "Elite Degrees", icon: GraduationCap },
-              { value: "4", label: "Professional Certifications", icon: Award },
-              { value: "8+", label: "Years Experience", icon: TrendingUp },
-              { value: "100%", label: "Success Rate", icon: Award }
+              { value: "2", label: "Academic Degrees", icon: GraduationCap },
+              { value: "5", label: "Certifications", icon: Award },
+              { value: "5+", label: "Core Skills", icon: TrendingUp },
+              { value: "4+", label: "Years P2P Trading", icon: Star }
             ].map((stat, index) => (
               <div key={index} className="group space-y-3">
                 <div className="relative mx-auto w-fit">
