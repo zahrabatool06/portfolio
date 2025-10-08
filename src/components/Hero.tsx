@@ -15,7 +15,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-[320px] overflow-hidden border-4 border-primary/20">
                 <ImageWithFallback 
-                  src="https://images.unsplash.com/photo-1634836023845-eddbfe9937da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjB3b3Jrc3BhY2UlMjBkYXJrfGVufDF8fHx8MTc1OTc2NTM0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="https://fra.cloud.appwrite.io/v1/storage/buckets/assets/files/68e6bc030003f38ca584/view?project=68cfd5c00003daed9c5d&mode=admin"
                   alt="Shah Nawaz"
                   className="w-full h-full object-cover rounded-[232px]"
                 />

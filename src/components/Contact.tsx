@@ -9,41 +9,41 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'shah.nawaz@example.com',
-      link: 'mailto:shah.nawaz@example.com'
+      value: 'hi@realshahnawaz.me',
+      link: 'mailto:hi@realshahnawaz.me'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+92 331 744 7272',
+      link: 'tel:+923317447272'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Lahore , Punjab',
       link: 'https://maps.google.com'
     }
   ];
 
   const socialLinks = [
     {
-      icon: Github,
-      name: 'GitHub',
-      url: 'https://github.com',
-      username: '@shahnawaz'
+      icon: Facebook,
+      name: 'Facebook',
+      url: 'https://facebook.com/realshahnawaz',
+      username: '@realshahnawaz'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'https://linkedin.com/in/realshahnawaz',
       username: 'Shah Nawaz'
     },
     {
       icon: Twitter,
       name: 'Twitter',
-      url: 'https://twitter.com',
-      username: '@shahnawaz'
+      url: 'https://twitter.com/@realshahnawaz',
+      username: '@realshahnawaz'
     }
   ];
 
